@@ -10,6 +10,10 @@ The following sections detail the steps to provision <%PRODUCT_NAME%>:
   - [Purchasing & Licensing](#purchasing--licensing)
   - [Installation of OnePractice PreRequisites](#installation-of-onepractice-prerequisites)
   - [Provisioning Process](#provisioning-process)
+  - [OnePractice Sync Configuration](#onepractice-sync-configuration)
+    - [Configure CCH Confguration](#configure-cch-confguration)
+    - [Configure XPM Confguration](#configure-xpm-confguration)
+  - [Post Provisioning](#post-provisioning)
 
 ## Purchasing & Licensing
 
@@ -112,4 +116,70 @@ The following steps complete the installation of OnePractice
    ![ProvisioningStep1d](img/configurationskin.JPG)
    Complete the following:
    - **Configuration and Skin** - Choose the appropriate configuration and skin for the installation you are deploying.
-   - **Company Specific Settings** - 
+   - **Company Specific Settings** - Upload the client's logo and change the helpdesk URL to your company's helpdesk UTL. Once done, adjust the time zone correctly.
+   - **Metadata** - Add any desired Metadata fields
+   - **Common App Settings** - Leave as default
+
+    Once done, click the Right Arrow
+5. The application will commence installing OnePractice
+   ![ProvisioningStep1e](img/clip0039.png)
+6. After some time, the dialog below will appear:
+   ![ProvisioningStep1f](img/createportal-step4.PNG)
+
+   Carefully follow the instructions on-screen.
+
+   **WARNING** failure to correctly follow the instructions will result in an unsuccessful implementation.
+
+   Once done, click the arrow to the right
+7. The application will continue to configure the environment. Wait until it has completed, then when prompted, close the application.
+   ![ProvisioningStep1g](img/clip0040.png)
+8. Download the OnePractice Mail Manifest from https://software.hubone.com/MailManager
+   ![ProvisioningStep2a](img/mailmanifest.JPG)
+9. Navigate to Exchange Administration at https://outlook.office365.com/ecp and click **Organization**
+    ![ProvisioningStep2b](img/clip0041.png)
+10. Click **add-ins**, then click the **+** burron and select **Add from File**
+    ![ProvisioningStep2c](img/clip0042.png)
+11. Click **Choose File**
+    ![ProvisioningStep2d](img/clip0043.png)
+12. Browse for the manifest file you downloaded in step 8. Click **Next** and wait for the file to upload
+    ![ProvisioningStep2e](img/clip0044.png)
+13. Once done, Mail appears in the list.
+    ![ProvisioningStep2f](img/clip0045.png)
+13. Double click **Mail**, and choose **Mandatory, always enabled**
+    
+    Once done, click **Save**
+    ![ProvisioningStep2g](img/clip0046.png)
+
+**PROCEDURE COMPLETE**
+
+## OnePractice Sync Configuration
+
+### Configure CCH Confguration
+1. Navigate to https://practicesync-staging.azurewebsites.net
+2. Click **Login with Microsoft**
+3. Click **Accept** to accept the credentials
+4. Choose the DocumentCenter and click **Configure**
+5. Enter details as shown below and click **Connect** under CCH iFirm
+    ![CCH Configuration](img/capture014.png)
+6. Enter the Username and password from your CCH iFirm Environment and Click **Login** then click *Yes**
+
+
+
+### Configure XPM Confguration
+1. Navigate to https://practicesync-staging.azurewebsites.net
+2. Click **Login with Microsoft**
+3. Click **Accept** to accept the credentials
+4. Choose the DocumentCenter and click **Configure**
+5. Click Connect XPM
+6. Login as your XPM Username and password
+7. Choose the Practice Manager Account to Subscribe to
+8. Select the XPM Tenant
+    ![XPMSync01](img/xpmsync01.png)
+9. Click Create Sync Schedule
+10. The System will attempt to Synchronise
+    ![XPMSync02](img/xpmsync02.png)
+11. When Sync is complete, you can close the browser and return to testing the applications.
+    ![XPMSync03](img/XPMSync03.png)
+
+## Post Provisioning
+Post Provisioning you should install Scans on computers which require it. See [Scans](scans.md) for more information. 
