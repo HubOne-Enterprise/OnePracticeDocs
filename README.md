@@ -3,6 +3,9 @@ Welcome to the User Guide for  <%PRODUCT_NAME%>. This document contains the enti
 
 Version: <%VERSION%>
 
+# In this site
+- [Provisioning](provisioning.md) - Contains information on how to install and configure OnePractice.
+
 ## Welcome
 
 
