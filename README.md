@@ -5,6 +5,7 @@ Version: 6.9.0
 
 # In this site
 - [Provisioning](provisioning.md) - Contains information on how to install and configure OnePractice.
+- [Mail](mail.md) - Contains the user guide for the Mail Application
 
 ## Welcome
 
