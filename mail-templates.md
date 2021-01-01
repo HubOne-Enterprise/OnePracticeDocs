@@ -21,7 +21,7 @@ The following sections detail how to use Mail Templates:
 
 ## Getting Started
 
-Mail Templates is accessed from Outlook Desktop client or Outlook Web App (OWA) from your browser by clicking the “New Email” button and then selecting Add-Ins > <%PRODUCT_NAME%> Mail for OWA or Message Tab > Apps For Office > <%PRODUCT_NAME%> Mail for Outlook Desktop.
+Mail Templates is accessed from Outlook Desktop client or Outlook Web App (OWA) from your browser by clicking the “New Email” button and then selecting Add-Ins > OnePractice Mail for OWA or Message Tab > Apps For Office > OnePractice Mail for Outlook Desktop.
 
 On first run you will be presented with the Connect to Document Center fly-out window. Enter your SharePoint Document Center URL which will be in a format similar to https://<designator>.sharepoint.com/documentcenter and your Office 365 login details. 
 
