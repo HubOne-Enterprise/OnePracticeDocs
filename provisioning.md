@@ -1,10 +1,10 @@
 # Provisioning
 
-Provisioning involves the installation and configuration of <%PRODUCT_NAME%> in an existing Office 365 environment. <%PRODUCT_NAME%> requires a clean SharePoint Online Site Collection and will use the root site. 
+Provisioning involves the installation and configuration of OnePractice in an existing Office 365 environment. OnePractice requires a clean SharePoint Online Site Collection and will use the root site. 
 
 Whilst the provisioning process does not delete files, it may change the look and feel of an existing chosen site collection, so take care when implementing it.
 
-The following sections detail the steps to provision <%PRODUCT_NAME%>:
+The following sections detail the steps to provision OnePractice:
 
 - [Provisioning](#provisioning)
   - [Purchasing & Licensing](#purchasing--licensing)

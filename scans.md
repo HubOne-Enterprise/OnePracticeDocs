@@ -266,7 +266,7 @@ You can also increase or decrease the number of documents that are visible in th
 #### Common App Settings
 
 
-Common App Settings shows the configuration of your <%PRODUCT_NAME%> environment.
+Common App Settings shows the configuration of your OnePractice environment.
 
 ![CommonAppSettings](img/clip0170.png)
 
