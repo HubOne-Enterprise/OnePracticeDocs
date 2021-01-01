@@ -207,4 +207,127 @@ Templates are saved differently depending on how they are created:
     - Name the template and click Save.
     ![Save2](img/worddesktop-savetosp2.png)
 - Desktop > Save to Desktop > Upload to Modern Practice Templates in your Document Center
+  - Within Word or Excel Desktop, go to File > Save As.
+  - Select This PC and navigate to your desktop.
+    ![Save3](img/worddesktop-savetodesktop.png)
+  - Name the template and click Save.
+  - Open your preferred browser and navigate to the document center. (https://<designator>.sharepoint.com/documentcenter)
+  - Select the Upload Templates button in the Templates app. This will open a new browser window with the Modern Practice Templates folder.
+
+    ![Grey](img/templates-header-cloud-grey.png)
+  - Click Upload, then Files.
+    ![Upload](img/uploadfiletosp.png)
+  - Navigate to the file on your desktop, select it and click Open.
+    ![Upload2](img/uploadingtemplatetosp.png)
+   - Alternatively, you can simply drag and drop the document from your desktop to SharePoint in the browser. You should first navigate to the folder you wish to place the template, then drag and drop.
+   - Wait while the file uploads.
+   - Once your file has been uploaded, it will appear in the folder.
+
+   - **Note:** You can create subfolders within the Modern Practice Templates folder to separate templates. 
+
+## Using Template Field Builder
+
+### Standard Template Fields 
+The following steps show how to create a standard template field.
+
+1. Select the type of field you want to use from the 3 buttons: Client Fields / Job Fields / Custom Fields. This will populate the drop down lists with all the relevant available fields for making templates. 
+    ![WhichFields](img/templates-fieldbuilder-standard1.PNG)
+2. Select an option from the ‘Field’ dropdown – this is mandatory and the other fields will not function without this.
+    ![WhichFields2](img/templates-fieldbuilder-standard2.PNG)
+3. In case the first field contains no data, you may wish to select an option from the **Alternative Field** dropdown and add default text, if neither have data. 
+4. The tag will generate automatically in the box beneath the field builder options.
+    ![WhichFields3](img/templates-fieldbuilder-standard3.PNG)
+5. Once you are happy, click the Clipboard button to copy the tag. You should then paste it (Ctrl + V) into the word/excel template you are creating. 
+
+
+### Custom User Prompt Fields
+The following steps show how to create a custom prompt field.
+
+1. Select the Custom user prompt field button to show the relevant controls. 
+2. Select the Field Type. 
+    ![Custom2](img/templates-fieldbuilder-custompromptfields2.PNG)
+3. Enter the text you wish to appear in the prompt and any extra data that may be required according to the field type selected. 
+4. The tag will generate automatically in the box beneath the field builder options. 
+    ![Custom3](img/templates-fieldbuilder-custompromptfields3.PNG)
+5. Once you are happy, click the Clipboard button to copy the tag. You should then paste it (Ctrl + V) into the Word or Excel template you are creating.
+
+### O365 user info fields
+The following steps show how to create a custom prompt field.
+
+1. Select the O365 user info field button to show the relevant controls. 
+2. Select a field from the dropdown. 
+    ![O365Field2](img/templates-fieldbuilder-o3652.PNG)
+3. The tag will generate automatically in the box beneath the field dropdown.
+    ![O365Field3](img/templates-fieldbuilder-o3653.PNG)
+4. Click the Clipboard button to copy the tag. You should then paste it (Ctrl + V) into the Word or Excel template you are creating.
+5. You will have to upgrade the security level permissions on Templates to be able to include these fields. If you do not see this feature, follow a simple procedure detailed in the support article [here](KB-Activate.md).
+
+## Verifying a template
+
+Once you have created your template, you should verify it against the rules used by the software. 
+
+1. Click the **Verify Template** icon next to the desired template and you will be taken to the Verify Template screen.
+    ![Verify](img/templates-homescreen-verifytemplatebutton.PNG)
+2. Click the Verify Template button and your template will be processed against some test data.
+    ![Verify](img/templates-verifytemplatescreen.PNG)
+3. Any anomalies or errors will be flagged and you can then go and fix these in the document. 
+4. Click the X in the top right to return to the main screen. 
+
+## Creating Documents: Merging Templates
+
+1. Select the template you wish to use by clicking either the Client or Job logo to the right of the document in order to merge with the relevant data. You will then be presented with a list of Clients or Jobs available to merge with. 
+    ![Create](img/templates-createadocument-joborclientdata.PNG)
+2. Use the search bar to select the client/s or job/s you want. The search bar will look up all names with any of the characters you've typed in.
+    ![Search](img/templates-createadocument-searchforclient.PNG)
+3. By default, the file will be saved in the client root folder.
+    ![Folder](img/templates-createadocument-saverootorsubfolder.PNG)
+4. However, if you want to save to a subfolder, click on the blue subfolder icon, then make a selection. You can navigate down through subfolders until you reach the one you want. You will see the new file save path in the Save location field. If you want to go back to a previous folder, simply deselect the current folder or click on the one above. 
+    > Please note, the functionality is unavailable if you select multiple clients and documents can only be saved to the root of each client's folder.
+    
+    ![Icon](img/templates-createadocument-subfoldersicon.PNG)
+
+    ![folders](img/templates-createadocument-subfolderselection.PNG)
+
+5. If you need to create a new folder, select where you want to add the folder and click the Add folder button. E.g. if I want to add a folder within 2018, I will select 2018. If I want to create a folder within Tax Return, I must select Tax Return before I select the Add folder button. 
+    
+    ![foldersadd](img/templates-createadocument-addfolderbutton.PNG)
+
+6. You will then be presented with a field to enter the new folder's name. Once you have entered a name, click the Save button.
+
+    ![foldersname](img/templates-createadocument-newfoldername.PNG)
+
+7. You can also add metadata by clicking on the **Metadata checkbox** then entering data into the prompted fields.
+   ![foldersname](img/templates-createadocument-metadata.PNG)
+8. Now select **Save to client** or **Download file.** If you select Save to client, the document will be saved to the client folder/subfolder you have selected above in SharePoint. Download file will instead save a local copy in your downloads folder. 
+
+    > **Note**, you will not need to add metadata or select a save location if you wish to download the file. 
+
+    ![saveOptions](img/templates-createadocument-saveoptions.PNG)
+
+9. If the template has Custom Prompt Fields, you will need to enter the required information before processing is completed. 
+    > **Please note**, if you have selected multiple clients, the custom data you enter will be applied to all client documents. 
+
+    ![customdata](img/templates-createadocument-inputcustomdata.PNG)
+
+10. Click Ok and the document/s will be created. They will then appear in the **View Saved Documents** window, accessible from the link in the Control Bar. 
+    
+    ![Header](img/templates-header-file-grey.png)
+
+    ![viewsave](img/templates-createadocument-viewsaveddocument.PNG)
+
+
+From the **View Saved Document** section, you will be able to view the new document or navigate to the folder it was saved to in SharePoint by clicking the **Client Folder** link. If clicking the link in this view does not open a new window to the target location, you need to make sure your Popup Blocker setting in your browser is disabled. 
+
+- For Internet Explorer: http://windows.microsoft.com/en-us/internet-explorer/ie-security-privacy-settings#ie=ie-11 
+- For Chrome: https://support.google.com/chrome/answer/95472?hl=en 
+- For Firefox: https://support.mozilla.org/en-US/kb/pop-blocker-settings-exceptions-troubleshooting
+
+## Metadata and Templates
+
+
+
+
+
+
+
 
