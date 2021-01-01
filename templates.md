@@ -324,6 +324,38 @@ From the **View Saved Document** section, you will be able to view the new docum
 
 ## Metadata and Templates
 
+Templates allows you to add custom metadata to your document before you save it into SharePoint. This data can be used to more accurately define a document, facilitate easier categorisation or grouping, increase searchability and append other useful information.
+
+Examples of metadata could include:
+- Period End e.g. June 2015
+- Assignment e.g. a choice between Tax/GST/Super/Correspondence 
+
+By default, OnePractice comes with Tax Year, Matter and Set metadata fields.
+
+![Metadata](img/templates-createadocument-metadata.PNG)
+
+### Start using Metadata
+
+1. Add metadata columns as described in the [metadata admin guide](metadata.md).
+   > **Note** This should have already been performed by your administrator
+2. Remember to click the Refresh button in Templates to load your new columns after you have added them.
+
+## Refreshing Client List Automatically
+
+Templates stores a cache of all your clients and jobs in your local browser after its first load. This is to minimize loading time and to give you a more efficient experience. However, this means that from time to time you will need to refresh your clients and jobs lists in Templates to reflect changes in your data source (e.g. Xero Practice Manager, SharePoint or another source). 
+
+You can do this manually by clicking the Refresh icon in the application header bar or you can set a refresh schedule in your HubOne Common App Settings list in your SharePoint Document Center. 
+
+### Updating the HubOne Common App Settings
+
+> This is an administrator task.
+> 
+1. Open your SharePoint Document Center > Site Contents > HubOne Common App Settings 
+2. If the setting RefreshListFrequency is not present, add it and set its value to:
+   1. “0” if you wish to never refresh or only refresh manually or;
+   2. A number value (1 – 100) to indicate the number of days between each automatic refresh. 
+3. Once the application passes the desired refresh schedule time, it will automatically refresh and reload your clients and jobs lists from their respective data sources. Please be patient if your data source is large.
+
 
 
 
