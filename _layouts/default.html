@@ -16,8 +16,8 @@
     <div id="header_wrap" class="outer">
         <header class="inner">
 
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          <h1 id="project_title">{{ site.description | default: site.github.repository_name }}</h1>
+          <!-- <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2> -->
 
           {% if site.show_downloads %}
             <section id="downloads">
@@ -28,7 +28,10 @@
           <h3 style="color:white;">
             <a style="color:white;" href="./">Home</a> | 
             <a style="color:white;" href="./provisioning.html">Provisioning</a> |
-            <a style="color:white;" href="./mail.html">Mail</a> | Templates | Scans | Admin</h3>
+            <a style="color:white;" href="./mail.html">Mail</a> | 
+            <a style="color:white;" href="/templates.html">Templates</a> | 
+            <a style="color:white;" href="/scans.html">Scans</a> | 
+            <a style="color:white;" href="/admin.html">Admin</a></h3>
         </header>
     </div>
 

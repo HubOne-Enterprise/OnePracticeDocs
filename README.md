@@ -6,6 +6,8 @@ Version: 6.9.0
 # In this site
 - [Provisioning](provisioning.md) - Contains information on how to install and configure OnePractice.
 - [Mail](mail.md) - Contains the user guide for the Mail Application
+- [Scans](scans.md) - Contains the user guide for the Scans Application
+- [Metadata](metadata.md) - contains the administrator guide for Metadata management.
 
 ## Welcome
 
