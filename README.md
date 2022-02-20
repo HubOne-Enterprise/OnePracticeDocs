@@ -19,7 +19,7 @@ OnePractice includes a customizable intranet portal which allows you to set up q
 OnePractice also includes the Document Center, a comprehensive document management platform which supports a full-featured place to create, store and retrieve your documents.
 
 ## About OnePractice
-This section details the steps and procedures to deliver and deploy the OnePractice Version 6.9 solution.
+This section details the steps and procedures to deliver and deploy OnePractice Version 6.9.
 
 OnePractice is implemented on Microsoft Office 365. Microsoft Office 365 is the brand name Microsoft uses for a group of subscriptions that provide productivity software and related services. For business users, Office 365 also offers service subscriptions for e-mail and social networking services through hosted versions of Exchange Server, Skype for Business Server, SharePoint and Office Online, integration with Yammer.
 
