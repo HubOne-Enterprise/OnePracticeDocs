@@ -12,7 +12,7 @@ Version: 6.9.0
 ## Welcome
 
 
-OnePractice consists of a number of apps and a configuration of Microsoft SharePoint Online (part of Office 365 ) to assist accounting firms simplify, automate and streamline their document management operations.
+OnePractice consists of a number of apps and a configuration of Microsoft SharePoint Online (part of Office 365) to assist accounting firms simplify, automate and streamline their document management operations.
 
 OnePractice includes a customizable intranet portal which allows you to set up quick links (with included single sign-on) to commonly used applications.
 
